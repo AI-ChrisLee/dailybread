@@ -66,32 +66,32 @@ export default function EmailModal({ isOpen, onClose }: EmailModalProps) {
               {/* Header */}
               <div className="text-center mb-6">
                 <h2 className="text-2xl font-black mb-2">
-                  Get the Full 15-Minute Lesson
+                  Join the Early Access Waitlist
                 </h2>
                 <p className="text-gray-600">
-                  Complete Day 1 audio lesson sent instantly to your inbox
+                  Limited to 50 founders • Get exclusive launch discount
                 </p>
               </div>
 
               {/* Benefits */}
               <div className="bg-gray-50 rounded-lg p-4 mb-6">
-                <p className="font-bold text-sm mb-3">What you&apos;ll get in Day 1:</p>
+                <p className="font-bold text-sm mb-3">Early access benefits:</p>
                 <div className="space-y-2">
                   <div className="flex items-start gap-2 text-sm">
                     <span className="text-green-500 mt-0.5">✓</span>
-                    <span>David&apos;s 3-step framework for handling co-founder betrayal</span>
+                    <span>50% off lifetime access when we launch</span>
                   </div>
                   <div className="flex items-start gap-2 text-sm">
                     <span className="text-green-500 mt-0.5">✓</span>
-                    <span>How to exit gracefully while keeping equity & reputation</span>
+                    <span>First to access all 28 days of content</span>
                   </div>
                   <div className="flex items-start gap-2 text-sm">
                     <span className="text-green-500 mt-0.5">✓</span>
-                    <span>Full 15-minute audio lesson (not just the preview)</span>
+                    <span>Exclusive founder community access</span>
                   </div>
                   <div className="flex items-start gap-2 text-sm">
                     <span className="text-green-500 mt-0.5">✓</span>
-                    <span>Transcript & action steps PDF included</span>
+                    <span>Direct input on future content</span>
                   </div>
                 </div>
               </div>
@@ -119,11 +119,11 @@ export default function EmailModal({ isOpen, onClose }: EmailModalProps) {
                   className="w-full bg-black text-white hover:bg-gray-900 font-medium"
                   disabled={isLoading}
                 >
-                  {isLoading ? "Sending..." : "Get Day 1 Full Version"}
+                  {isLoading ? "Joining..." : "Join Waitlist"}
                 </Button>
 
                 <p className="text-xs text-gray-500 text-center">
-                  No spam, unsubscribe anytime. By signing up, you agree to our privacy policy.
+                  Only 50 spots available. No spam, unsubscribe anytime.
                 </p>
               </form>
             </>
@@ -131,9 +131,9 @@ export default function EmailModal({ isOpen, onClose }: EmailModalProps) {
             /* Success state */
             <div className="text-center py-8">
               <CheckCircle className="h-16 w-16 text-green-500 mx-auto mb-4" />
-              <h3 className="text-xl font-black mb-2">Check your inbox!</h3>
+              <h3 className="text-xl font-black mb-2">You&apos;re on the list!</h3>
               <p className="text-gray-600">
-                We&apos;ve sent the full Day 1 lesson to {email}
+                We&apos;ll email you at {email} when your coupon is ready
               </p>
             </div>
           )}

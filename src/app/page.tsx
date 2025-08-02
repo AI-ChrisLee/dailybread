@@ -25,12 +25,12 @@ export default function Home() {
         <div className="container mx-auto px-4 py-12 md:px-6 md:py-20">
           <div className="max-w-4xl mx-auto text-center mb-12">
             <div className="inline-flex items-center px-4 py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full mb-8">
-              <span className="text-white text-sm font-medium">Designed for entrepreneurs</span>
+              <span className="text-white text-sm font-medium">Designed for Christian entrepreneurs</span>
             </div>
-            <h2 className="text-4xl md:text-6xl lg:text-7xl font-black mb-6 leading-tight" style={{ fontFamily: 'SF Pro Display', fontWeight: 900 }}>
+            <h2 className="text-4xl md:text-6xl lg:text-7xl font-black mb-6 leading-tight">
               Build Unshakeable Faith in 15 Minutes a Day
             </h2>
-            <p className="text-lg md:text-xl lg:text-2xl text-gray-300 mb-8 px-4 md:px-0" style={{ fontFamily: 'SF Pro Display', fontWeight: 400 }}>
+            <p className="text-lg md:text-xl lg:text-2xl text-gray-300 mb-8 px-4 md:px-0 font-medium">
               The only micro-learning platform that teaches biblical self-discipline through practical daily exercises.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
@@ -55,15 +55,15 @@ export default function Home() {
 
           {/* 28-Day Journey Grid - Looping Animation */}
           <div className="mt-8 md:mt-16">
-            <div className="relative overflow-hidden max-w-[650px] md:max-w-[900px] lg:max-w-[1100px] mx-auto">
+            <div className="relative overflow-hidden max-w-[350px] sm:max-w-[650px] md:max-w-[900px] lg:max-w-[1100px] mx-auto">
               <div className="animate-slide-grid flex gap-6">
                 <BookGridLoop />
                 {/* Duplicate for seamless loop */}
                 <BookGridLoop />
               </div>
               {/* Gradient overlays for smooth edges */}
-              <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-black to-transparent pointer-events-none z-10"></div>
-              <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-black to-transparent pointer-events-none z-10"></div>
+              <div className="absolute left-0 top-0 bottom-0 w-10 sm:w-20 bg-gradient-to-r from-black to-transparent pointer-events-none z-10"></div>
+              <div className="absolute right-0 top-0 bottom-0 w-10 sm:w-20 bg-gradient-to-l from-black to-transparent pointer-events-none z-10"></div>
             </div>
           </div>
         </div>
@@ -73,7 +73,7 @@ export default function Home() {
       <section className="bg-[#F5F5F5]">
         <div className="container mx-auto px-4 py-16 md:px-6 md:py-24">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black mb-12">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-black mb-8 md:mb-12">
               Hear directly from Chris.
             </h2>
             
@@ -111,7 +111,7 @@ export default function Home() {
             
             {/* Profile Section */}
             <div className="flex justify-center mt-8">
-              <div className="flex items-center gap-6">
+              <div className="flex items-center gap-4 md:gap-6">
                 {/* Profile Image */}
                 <div className="relative w-12 h-12 rounded-full overflow-hidden bg-gray-300">
                   {/* Placeholder for profile image */}
@@ -163,10 +163,10 @@ export default function Home() {
                     <div className="bg-white/10 backdrop-blur-sm rounded-full p-6 mb-4 inline-block">
                       <Play className="h-12 w-12 text-white" fill="currentColor" />
                     </div>
-                    <h3 className="text-xl font-bold text-white mb-2">
+                    <h3 className="text-base md:text-xl font-bold text-white mb-2">
                       How to Use These Tools to Transform Your Faith
                     </h3>
-                    <p className="text-gray-300">3 minutes</p>
+                    <p className="text-sm md:text-base text-gray-300">3 minutes</p>
                   </div>
                 </div>
               </div>
@@ -178,7 +178,7 @@ export default function Home() {
       {/* Demo Section */}
       <section id="demo-section" className="bg-white scroll-mt-0">
         <div className="container mx-auto px-6 py-12 md:py-16">
-          <h2 className="text-3xl md:text-4xl font-black mb-2 text-center">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-black mb-2 text-center">
             Listen to your first lesson
           </h2>
           <p className="text-gray-600 text-center mb-8 md:mb-12">
@@ -199,9 +199,9 @@ export default function Home() {
                 </div>
 
                 {/* Audio Player and Content */}
-                <div className="p-6 md:p-8 space-y-4 md:space-y-6">
+                <div className="p-4 sm:p-6 md:p-8 space-y-4 md:space-y-6">
                   {/* Audio Controls */}
-                  <div className="border-2 border-black p-6">
+                  <div className="border-2 border-black p-4 md:p-6">
                     <div className="flex items-center gap-4 mb-6">
                       <Button 
                         size="icon" 
@@ -225,10 +225,10 @@ export default function Home() {
                   {/* Content */}
                   <div>
                     <p className="text-sm text-gray-600 mb-2 uppercase tracking-wider font-medium">Lesson 1</p>
-                    <h3 className="text-2xl font-black mb-4">
+                    <h3 className="text-xl md:text-2xl font-black mb-3 md:mb-4">
                       David&apos;s co-founder betrayal playbook
                     </h3>
-                    <p className="text-gray-600 leading-relaxed font-medium">
+                    <p className="text-sm md:text-base text-gray-600 leading-relaxed font-medium">
                       David faced betrayal from his closest ally and survived. In this lesson, discover the 
                       3-step framework he used to exit gracefully while keeping his equity and reputation intact.
                     </p>
@@ -254,7 +254,7 @@ export default function Home() {
                       className="w-full bg-black text-white hover:bg-gray-900 font-medium"
                       onClick={() => setIsModalOpen(true)}
                     >
-                      Get Full Version of Day 1
+                      Join Early Access Waitlist
                       <ArrowRight className="ml-2 h-4 w-4" />
                     </Button>
                   </div>
@@ -271,8 +271,8 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             {/* Business Name */}
             <div>
-              <h3 className="text-xl font-black">dailybread.ceo</h3>
-              <p className="text-sm text-gray-400 mt-1">Biblical wisdom for modern founders</p>
+              <h3 className="text-lg md:text-xl font-black">dailybread.ceo</h3>
+              <p className="text-xs md:text-sm text-gray-400 mt-1">Biblical wisdom for modern founders</p>
             </div>
             
             {/* Social Links */}
@@ -295,7 +295,7 @@ export default function Home() {
           </div>
           
           {/* Copyright */}
-          <div className="border-t border-gray-800 mt-8 pt-8 text-center">
+          <div className="border-t border-gray-800 mt-8 pt-8 text-left">
             <p className="text-sm text-gray-500">
               © {new Date().getFullYear()} DailyBread. All rights reserved.
             </p>

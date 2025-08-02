@@ -103,6 +103,6 @@
   }
   
   .animate-slide-grid {
-    animation: slide-grid 60s linear infinite;
+    animation: slide-grid 30s linear infinite;
   }
 }
