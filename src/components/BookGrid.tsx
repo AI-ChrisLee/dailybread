@@ -101,7 +101,7 @@ export default function BookGrid() {
         <div className="relative overflow-hidden">
           <div className="grid grid-cols-4 gap-6">
             {/* Show only first 4 days */}
-            {lessons.slice(0, 4).map((lesson, index) => (
+            {lessons.slice(0, 4).map((lesson) => (
             <Card 
               key={lesson.id} 
               className={cn(

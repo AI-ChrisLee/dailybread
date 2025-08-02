@@ -79,33 +79,33 @@ export default function Home() {
             
             <div className="space-y-4 mb-12">
               <p className="text-lg leading-relaxed" style={{ lineHeight: '1.8', minHeight: '16px' }}>
-                Five years ago, I started my marketing agency. It grew beyond what I imagined—great clients, solid team, financial stability. <strong>But success didn't fill the void I felt.</strong>
+                Five years ago, I started my marketing agency. It grew beyond what I imagined—great clients, solid team, financial stability. <strong>But success didn&apos;t fill the void I felt.</strong>
               </p>
               <p className="text-lg leading-relaxed" style={{ lineHeight: '1.8', minHeight: '16px' }}>
-                <strong>I'd hit my limit</strong> spiritually, emotionally, mentally. When I turned to church for answers, I kept hearing the same thing: "Just pray more. Just have faith."
+                <strong>I&apos;d hit my limit</strong> spiritually, emotionally, mentally. When I turned to church for answers, I kept hearing the same thing: &quot;Just pray more. Just have faith.&quot;
               </p>
               <p className="text-lg leading-relaxed" style={{ lineHeight: '1.8', minHeight: '16px' }}>
-                But my analytical mind needed more. I needed <strong>practical methods</strong>, not platitudes. That's when I went deeper into Scripture itself. I found that the Bible doesn't just say "have faith"—it gives us <strong>practical commands</strong>:
+                But my analytical mind needed more. I needed <strong>practical methods</strong>, not platitudes. That&apos;s when I went deeper into Scripture itself. I found that the Bible doesn&apos;t just say &quot;have faith&quot;—it gives us <strong>practical commands</strong>:
               </p>
               
               {/* Bible Quotes */}
               <div className="space-y-4 my-8">
                 <blockquote className="text-lg italic text-gray-700 font-medium text-left">
-                  "Add to your faith... self-control"
+                  &quot;Add to your faith... self-control&quot;
                   <cite className="block text-sm mt-1 not-italic">— 2 Peter 1:5-6</cite>
                 </blockquote>
                 <blockquote className="text-lg italic text-gray-700 font-medium text-left">
-                  "Discipline your body and keep it under control"
+                  &quot;Discipline your body and keep it under control&quot;
                   <cite className="block text-sm mt-1 not-italic">— 1 Corinthians 9:27</cite>
                 </blockquote>
                 <blockquote className="text-lg italic text-gray-700 font-medium text-left">
-                  "A man without self-control is like a city broken into and left without walls"
+                  &quot;A man without self-control is like a city broken into and left without walls&quot;
                   <cite className="block text-sm mt-1 not-italic">— Proverbs 25:28</cite>
                 </blockquote>
               </div>
               
               <p className="text-lg leading-relaxed" style={{ lineHeight: '1.8', minHeight: '16px' }}>
-                This platform is the resource I wish I'd had—<strong>practical daily exercises</strong> that build <strong>real faith through disciplined action</strong>.
+                This platform is the resource I wish I&apos;d had—<strong>practical daily exercises</strong> that build <strong>real faith through disciplined action</strong>.
               </p>
             </div>
             
@@ -226,7 +226,7 @@ export default function Home() {
                   <div>
                     <p className="text-sm text-gray-600 mb-2 uppercase tracking-wider font-medium">Lesson 1</p>
                     <h3 className="text-2xl font-black mb-4">
-                      David's co-founder betrayal playbook
+                      David&apos;s co-founder betrayal playbook
                     </h3>
                     <p className="text-gray-600 leading-relaxed font-medium">
                       David faced betrayal from his closest ally and survived. In this lesson, discover the 

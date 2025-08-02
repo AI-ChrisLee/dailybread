@@ -39,7 +39,7 @@ export default function EmailModal({ isOpen, onClose }: EmailModalProps) {
         setEmail("")
         onClose()
       }, 3000)
-    } catch (err) {
+    } catch {
       setError("Something went wrong. Please try again.")
     } finally {
       setIsLoading(false)
@@ -75,11 +75,11 @@ export default function EmailModal({ isOpen, onClose }: EmailModalProps) {
 
               {/* Benefits */}
               <div className="bg-gray-50 rounded-lg p-4 mb-6">
-                <p className="font-bold text-sm mb-3">What you'll get in Day 1:</p>
+                <p className="font-bold text-sm mb-3">What you&apos;ll get in Day 1:</p>
                 <div className="space-y-2">
                   <div className="flex items-start gap-2 text-sm">
                     <span className="text-green-500 mt-0.5">✓</span>
-                    <span>David's 3-step framework for handling co-founder betrayal</span>
+                    <span>David&apos;s 3-step framework for handling co-founder betrayal</span>
                   </div>
                   <div className="flex items-start gap-2 text-sm">
                     <span className="text-green-500 mt-0.5">✓</span>
@@ -133,7 +133,7 @@ export default function EmailModal({ isOpen, onClose }: EmailModalProps) {
               <CheckCircle className="h-16 w-16 text-green-500 mx-auto mb-4" />
               <h3 className="text-xl font-black mb-2">Check your inbox!</h3>
               <p className="text-gray-600">
-                We've sent the full Day 1 lesson to {email}
+                We&apos;ve sent the full Day 1 lesson to {email}
               </p>
             </div>
           )}
