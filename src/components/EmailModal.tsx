@@ -83,10 +83,6 @@ export default function EmailModal({ isOpen, onClose }: EmailModalProps) {
                   </div>
                   <div className="flex items-start gap-2 text-sm">
                     <span className="text-green-500 mt-0.5">✓</span>
-                    <span>First to access all 28 days of content</span>
-                  </div>
-                  <div className="flex items-start gap-2 text-sm">
-                    <span className="text-green-500 mt-0.5">✓</span>
                     <span>Exclusive founder community access</span>
                   </div>
                   <div className="flex items-start gap-2 text-sm">

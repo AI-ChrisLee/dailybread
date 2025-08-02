@@ -25,13 +25,13 @@ export default function Home() {
         <div className="container mx-auto px-4 py-12 md:px-6 md:py-20">
           <div className="max-w-4xl mx-auto text-center mb-12">
             <div className="inline-flex items-center px-4 py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full mb-8">
-              <span className="text-white text-sm font-medium">Designed for Christian entrepreneurs</span>
+              <span className="text-white text-sm font-medium">🎉 Designed for Christian entrepreneurs</span>
             </div>
-            <h2 className="text-4xl md:text-6xl lg:text-7xl font-black mb-6 leading-tight">
+            <h2 className="text-4xl md:text-6xl lg:text-7xl font-black mb-3 leading-tight">
               Build Unshakeable Faith in 15 Minutes a Day
             </h2>
             <p className="text-lg md:text-xl lg:text-2xl text-gray-300 mb-8 px-4 md:px-0 font-medium">
-              The only micro-learning platform that teaches biblical self-discipline through practical daily exercises.
+              The only micro-learning platform that teaches <span className="text-white font-black">biblical self-discipline</span> through practical daily exercises.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <Button 
@@ -110,7 +110,7 @@ export default function Home() {
             </div>
             
             {/* Profile Section */}
-            <div className="flex justify-center mt-8">
+            <div className="flex justify-start mt-8">
               <div className="flex items-center gap-4 md:gap-6">
                 {/* Profile Image */}
                 <div className="relative w-12 h-12 rounded-full overflow-hidden bg-gray-300">
@@ -268,11 +268,11 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-black text-white">
         <div className="container mx-auto px-6 py-12">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+          <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
             {/* Business Name */}
-            <div>
+            <div className="text-left">
               <h3 className="text-lg md:text-xl font-black">dailybread.ceo</h3>
-              <p className="text-xs md:text-sm text-gray-400 mt-1">Biblical wisdom for modern founders</p>
+              <p className="text-xs md:text-sm text-gray-400 mt-1">Faith That Works in the Real World</p>
             </div>
             
             {/* Social Links */}
